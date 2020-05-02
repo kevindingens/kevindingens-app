@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "dist/kevindingens-app",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
